@@ -23,7 +23,7 @@ function maps(page_scroll) {
  scroll=$(window).scrollTop();
  degr=(180/600)*scroll;
 console.log(scroll);
- $(".logopm").css({
+ $(".xmlogo").css({
  	'transform': 'rotate3d(1, 0, 0, '+degr+'deg)'}
  );
 
